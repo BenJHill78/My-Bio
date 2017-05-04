@@ -16,14 +16,14 @@ h2, h3{
 h4{
 	font-family: 'Georgia',Times,Times New Roman,serif;
 	background-color: #4aaaa5;
-	position: relative;
-	bottom: 20px;
-	width: auto;
-	word-wrap: all;
+	padding: 5px;
+	margin-top: 120px;
+
 }
 body{
-	background-width: 960px;
+	width: 960px;
 	background-image: url("../images/tree.png");
+	margin: 0 auto;
 }
 #nav{
 	background-color: #ffffff;
@@ -32,47 +32,66 @@ body{
 	width: 200px;
 	float: right;
 	position: relative;
-	padding: 10px
+	padding: 10px;
 }
-#portfolio{
+section{
 	font-family: 'Georgia',Times,Times New Roman,serif;
 	background-color: #ffffff;
 	border-color: #cccccc;
 	padding: 10px;
-	max-width: 300px;
-	height: 500px;
+	width: 650px;
+	overflow: auto;
 }
-.image{
-	position: relative;
+#hangman{
+	background-image:  url("../images/Hangman.jpg");
+	background-size: cover;
 	float: left;
-	padding: 10px;
+	height: 180px;
+	width: 180px;
+	margin: 5px;
+	text-align: center;
 }
-#contact{
-	font-family: 'Georgia',Times,Times New Roman,serif;
-	background-color: #ffffff;
-	border-color: #cccccc;
-	padding: 20px;
-	width: 200px;
-	height: 300px;
+#rpg{
+	background-image:  url("../images/RPG.jpg");
+	background-size: cover;
 	float: left;
+	height: 180px;
+	width: 180px;
+	margin: 5px;
+	text-align: center;
 }
-article{
-	background-color: #ffffff;
-	font-color: #777777;
-	font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
-	max-width: 400px;
-	height: 500px;
-	padding-left: 20px;
-	padding-right: 20px;
+#trivia{
+	background-image:  url("../images/Trivia.jpg");
+	background-size: cover;
 	float: left;
+	height: 180px;
+	width: 180px;
+	margin: 5px;
+	text-align: center;
+}
+#rutgers{
+	background-image:  url("../images/Rutgers.jpg");
+	background-size: cover;
+	float: left;
+	height: 180px;
+	width: 180px;
+	margin: 5px;
+	text-align: center;
+}
+#scissors{
+	background-image:  url("../images/Scissors.jpg");
+	background-size: cover;
+	float: left;
+	height: 180px;
+	width: 180px;
+	margin: 5px;
+	text-align: center;
 }
 #social{
 	background-color: #ffffff;
 	content-color: white;
 	text-align: center;
 	font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
-	max-width: 400px;
-	max-height: auto;
 	float: right;
 	position: relative;
 	padding-left: 10px;
@@ -100,7 +119,7 @@ footer{
 	background-color: #666666;
 	text-align: center;
 	font-family: 'Arial','Helvetica Neue',Helvetica, sans-serif;
-	width: 100%;
+	width: 960px;
 	height: auto;
 	bottom: 0;
 	position: fixed;
